@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop | Hollow Petals</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hollow Petals</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="card">
+        <h2>Shop Art Prints</h2>
+        <div class="art-item">
+          <img src="assets/Blooming.jpg" alt="Blooming" class="art-image" />
+          <h3>Blooming</h3>
+          <p>$10 — High-resolution digital print</p>
+          <!-- Digital Download via PayPal -->
+          <style>
+            .pp-BWZNSMFAYEEQN {
+              text-align: center;
+              border: none;
+              border-radius: 0.25rem;
+              min-width: 11.625rem;
+              padding: 0 2rem;
+              height: 2.625rem;
+              font-weight: bold;
+              background-color: #ffd140;
+              color: #000000;
+              font-family: "Helvetica Neue", Arial, sans-serif;
+              font-size: 1rem;
+              line-height: 1.25rem;
+              cursor: pointer;
+            }
+          </style>
+          <form
+            action="https://www.paypal.com/ncp/payment/BWZNSMFAYEEQN"
+            method="post"
+            target="_blank"
+            style="
+              display: inline-grid;
+              justify-items: center;
+              align-content: start;
+              gap: 0.5rem;
+            "
+          >
+            <input class="pp-BWZNSMFAYEEQN" type="submit" value="Pay Now" />
+            <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg
+            alt="cards" />
+            <section style="font-size: 0.75rem">
+              Powered by
+              <img
+                src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg"
+                alt="paypal"
+                style="height: 0.875rem; vertical-align: middle"
+              />
+
+              <!-- Printed Copy via Amazon -->
+              <a
+                href="https://www.amazon.com/dp/YOURPRODUCTID"
+                target="_blank"
+                class="download-btn amazon-btn"
+              >
+                Buy Printed Copy on Amazon
+              </a>
+              <div class="art-item">
+                <img
+                  src="assets/In Bloom.jpg"
+                  alt="In Bloom"
+                  class="art-image"
+                />
+                <h3>In Bloom</h3>
+                <p>$10 — Choose digital download or printed copy</p>
+
+                <!-- Digital Download via PayPal -->
+                <form
+                  action="https://www.paypal.com/cgi-bin/webscr"
+                  method="post"
+                  target="_top"
+                  style="margin-bottom: 1rem"
+                >
+                  <input type="hidden" name="cmd" value="_xclick" />
+                  <input
+                    type="hidden"
+                    name="business"
+                    value="ARTISTPAYPAL@EMAIL.COM"
+                  />
+                  <input
+                    type="hidden"
+                    name="item_name"
+                    value="In Bloom - Digital Print (Hollow Petals)"
+                  />
+                  <input type="hidden" name="amount" value="10.00" />
+                  <input type="hidden" name="currency_code" value="USD" />
+                  <input
+                    type="hidden"
+                    name="return"
+                    value="https://yourusername.github.io/hollow-petals/thankyou.html"
+                  />
+                  <input
+                    type="submit"
+                    value="Buy Digital Print ($10)"
+                    class="download-btn"
+                  />
+                </form>
+              </div>
+            </section>
+            
+          </form>
+
+          <!-- Printed Copy via Amazon -->
+          <a
+            href="https://www.amazon.com/dp/YOURPRODUCTID"
+            target="_blank"
+            class="download-btn amazon-btn"
+          >
+            Buy Printed Copy on Amazon
+          </a>
+        </div>
+        <div class="art-item">
+          <img src="assets/Pre-Bloom.jpg" alt="Pre-Bloom" class="art-image" />
+          <h3>Pre-Bloom</h3>
+          <p>$10 — Choose digital download or printed copy</p>
+
+          <!-- Digital Download via PayPal -->
+          <form
+            action="https://www.paypal.com/cgi-bin/webscr"
+            method="post"
+            target="_top"
+            style="margin-bottom: 1rem"
+          >
+            <input type="hidden" name="cmd" value="_xclick" />
+            <input
+              type="hidden"
+              name="business"
+              value="ARTISTPAYPAL@EMAIL.COM"
+            />
+            <input
+              type="hidden"
+              name="item_name"
+              value="Pre-Bloom - Digital Print (Hollow Petals)"
+            />
+            <input type="hidden" name="amount" value="10.00" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input
+              type="hidden"
+              name="return"
+              value="https://yourusername.github.io/hollow-pedals/thankyou.html"
+            />
+            <input
+              type="submit"
+              value="Buy Digital Print ($10)"
+              class="download-btn"
+            />
+          </form>
+
+          <!-- Printed Copy via Amazon -->
+          <a
+            href="https://www.amazon.com/dp/YOURPRODUCTID"
+            target="_blank"
+            class="download-btn amazon-btn"
+          >
+            Buy Printed Copy on Amazon
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Hollow Petals. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
