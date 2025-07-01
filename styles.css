@@ -99,7 +99,7 @@ main.content {
 
 
 .download-btn {
-  background-color: var(--pink);
+  background-color:rgb(115, 131, 114);
   color: white;
   padding: 0.7rem 1.5rem;
   text-decoration: none;
@@ -109,7 +109,7 @@ main.content {
 }
 
 .download-btn:hover {
-  background-color: #ff4e76;
+  background-color: #474747;
 }
 
 footer {
